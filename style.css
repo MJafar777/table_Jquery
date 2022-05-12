@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+table,tr,td,th{
+    border: 2px black solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    color: rgb(255, 0, 0);
+}
+body{
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 255, 0.8), rgb(0, 255, 255, 0.1), rgb(0, 255, 255, 0.8));
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+img{
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 1px 1px rgb(155, 155, 155);
+    position: absolute;
+    border: 2px solid black;
+}
+#first{
+   top: 80px;
+   right: 300px;
+}
+#second{
+    top: 280px;
+    right: 100px;
+}
+input{
+    border: 2px solid rgb(20, 20, 20);
+    border-radius: 10px;
+    width: 200px;
+    margin: 10px;
+    height: 25px;
+    background-color: aliceblue;
+}
